@@ -1,0 +1,16 @@
+version: 2.0.1
+main: me.Prunt.betterhelp.Main
+name: BetterHelp
+description: Simple plugin that automatically lists all available commands to player.
+author: Prunt
+website: https://www.spigotmc.org/resources/betterhelp.13670/
+
+commands:
+  help:
+    aliases: ['?']
+    description: Shows all available commands.
+    permission: betterhelp.use
+permissions:
+  betterhelp.use:
+    default: true
+    description: Allows players to use /help.

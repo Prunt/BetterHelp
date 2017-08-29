@@ -1,0 +1,4 @@
+# Message shown on the top and bottom of the help list
+borders: '---------- Available commands ----------'
+# Message shown when there is no description provided by the plugin
+no-description: 'No description available.'
